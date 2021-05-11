@@ -10,7 +10,7 @@ const title = document.querySelector('#title');
 const cover = document.querySelector('#cover');
 
 // Song titles
-const songs = ['Beautiful Day', 'Move It',  'Keep Going'];
+const songs = ['Metallica - Am I Savage', 'Metallica - Atlas Rise',  'Metallica - Confusion', 'Metallica - Dream No More', 'Metallica - Halo On Fire', 'Metallica - Hardwired', 'Metallica - Here Comes Revenge', 'Metallica - ManUNkind', 'Metallica - Moth Into Flame', 'Metallica - Murder One', 'Metallica - Now That Were Dead', 'Metallica - Spit Out the Bone'];
 
 // Keep track of song
 let songIndex = 2;
@@ -22,7 +22,8 @@ loadSong(songs[songIndex]);
 function loadSong(song) {
   title.innerText = song;
   audio.src = `music/${song}.mp3`;
-  cover.src = `images/${song}.jpg`;
+  // cover.src = `images/${song}.jpg`;
+  cover.src = `images/album.jpg`;
 }
 
 // Play song
