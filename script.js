@@ -10,7 +10,7 @@ const title = document.querySelector('#title');
 const cover = document.querySelector('#cover');
 
 // Song titles
-const songs = ['Metallica - Am I Savage', 'Metallica - Atlas Rise',  'Metallica - Confusion', 'Metallica - Dream No More', 'Metallica - Halo On Fire', 'Metallica - Hardwired', 'Metallica - Here Comes Revenge', 'Metallica - ManUNkind', 'Metallica - Moth Into Flame', 'Metallica - Murder One', 'Metallica - Now That Were Dead', 'Metallica - Spit Out the Bone'];
+const songs = ['Metallica - Am I Savage', 'Metallica - Atlas Rise',  'Metallica - Confusion', 'Metallica - Dream No More', 'Metallica - Halo On Fire', 'Metallica - Hardwired', 'Metallica - Here Comes Revenge', 'Metallica - ManUNkind', 'Metallica - Moth Into Flame', 'Metallica - Murder One', 'Metallica - Now That Were Dead', 'Metallica - Spit Out the Bone', 'Metallica - Instrumentals'];
 
 // Keep track of song
 let songIndex = 2;
